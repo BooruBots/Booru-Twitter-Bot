@@ -1,0 +1,24 @@
+{
+  "twitter": {
+    "apiKey": "yourKey",
+    "apiSecret": "yourSecret",
+    "token": "yourToken",
+    "tokenSecret": "yourTokenSecret"
+  },
+  "danbooru": {
+    "user": "danbooruUser",
+    "userLevel": "one of DEFAULT, GOLD, or PLATINUM",
+    "apiKey": "yourApiKey",
+    "baseUrl": "danbooru.donmai.us or safebooru.donmai.us"
+  },
+  "tasks": {
+    "30MinuteTouhou": {
+      "schedule": "*/30 * * * *",
+      "tagList": ["remilia_scarlet", "kirisame_marisa", "hata_no_kokoro",
+        "cirno", "chen", "izayoi_sakuya", "flandre_scarlet", "konpaku_youmu", "hakurei_reimu",
+        "lyrica_prismriver"],
+      "tagOrder": "random",
+      "pinnedTags":["source:*twitter.com*", "rating:safe", "touhou"]
+    }
+  }
+}

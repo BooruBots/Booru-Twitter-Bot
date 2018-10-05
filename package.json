@@ -4,7 +4,7 @@
   "description": "Ethical danbooru image posting twitter bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "nlj223@gmail.com",
   "license": "MIT",
@@ -14,11 +14,17 @@
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint-plugin-react": "^7.10.0",
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "bunyan": "^1.8.12",
+    "config": "^1.30.0",
+    "cron": "^1.4.1",
     "danbooru": "^3.0.7",
-    "restify": "^7.2.1"
+    "lodash": "^4.17.11",
+    "restify": "^7.2.1",
+    "twit": "^2.2.11"
   }
 }
