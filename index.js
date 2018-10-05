@@ -21,7 +21,7 @@ taskList.map((task) => {
   const scheduler = new TagToTaskScheduler(task.tagList, task.pinnedTags,
     task.tagOrder,
     new Booru(config.get('danbooru'), logger),
-    new TwitterClient(config.get('twitter'), logger),
+    new TwitterClient(task.twitterConfig, logger),
     logger);
   scheduler.scheduleTask(findImageAndTweetTask, task.schedule);
   return scheduler;

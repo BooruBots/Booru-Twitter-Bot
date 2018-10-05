@@ -1,10 +1,4 @@
 {
-  "twitter": {
-    "apiKey": "yourKey",
-    "apiSecret": "yourSecret",
-    "token": "yourToken",
-    "tokenSecret": "yourTokenSecret"
-  },
   "danbooru": {
     "user": "danbooruUser",
     "userLevel": "one of DEFAULT, GOLD, or PLATINUM",
@@ -18,7 +12,32 @@
         "cirno", "chen", "izayoi_sakuya", "flandre_scarlet", "konpaku_youmu", "hakurei_reimu",
         "lyrica_prismriver"],
       "tagOrder": "random",
-      "pinnedTags":["source:*twitter.com*", "rating:safe", "touhou"]
+      "pinnedTags":["source:*twitter.com*", "rating:safe", "touhou"],
+      "twitter": {
+        "apiKey": "yourKey",
+        "apiSecret": "yourSecret",
+        "token": "yourToken",
+        "tokenSecret": "yourTokenSecret"
+      },
+      "15MinuteHaruhi": {
+        "schedule": "*/15 * * * *",
+        "tagList": [
+          "yuki_nagato",
+          "suzumiya_haruhi"
+        ],
+        "tagOrder": "ordered",
+        "pinnedTags": [
+          "source:*twitter.com*",
+          "rating:safe",
+          "suzumiya_haruhi_no_yuuutsu"
+        ],
+        "twitter": {
+          "apiKey": "yourKey",
+          "apiSecret": "yourSecret",
+          "token": "someOtherToken",
+          "tokenSecret": "someOtherSecret"
+        }
+      }
     }
   }
 }

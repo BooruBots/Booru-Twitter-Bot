@@ -27,6 +27,7 @@ class ConfigurationHelper {
           tagOrder: taskProps.tagOrder,
           tagList: taskProps.tagList,
           pinnedTags: taskProps.pinnedTags,
+          twitterConfig: taskProps.twitter,
         };
       });
   }
