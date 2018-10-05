@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "nlj223@gmail.com",
+  "author": "BooruBots",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^4.19.1",
