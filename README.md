@@ -9,7 +9,7 @@ npm install
 npm run start
 ```
 
-To use it, create a config director and a default.json file following the format of the sample config file.
+To use it, create a config directory and a default.json file inside following the format of the sample config file.
 
 This will all be made much easier later. 
 
